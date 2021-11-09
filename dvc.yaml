@@ -17,7 +17,7 @@ stages:
   stage_03:
     cmd: python stage_03.py
     deps:
-      - artificates01.txt
+      - artificates01.txt 
       - stage_03.py
     outs:
       - artificates02.txt

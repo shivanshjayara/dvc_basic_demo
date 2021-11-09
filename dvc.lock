@@ -26,8 +26,8 @@ stages:
       md5: 7e6214bb528dd69609564aa1392a7e53
       size: 8
     - path: stage_03.py
-      md5: c6e17b0c3b0f284ee602ca41eddeac50
-      size: 174
+      md5: ac83a9035db3b71d7262cbb89aa16627
+      size: 167
     outs:
     - path: artificates02.txt
       md5: 1ea749cc727507000975da0174008d76
