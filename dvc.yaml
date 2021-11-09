@@ -14,3 +14,10 @@ stages:
 
 # In order to run the dvc.yaml file, we use dvc repro command
 # Unique value will create for every depedency and outputs. This is basically refe to hash value
+  stage_03:
+    cmd: python stage_03.py
+    deps:
+      - artificates01.txt
+      - stage_03.py
+    outs:
+      - artificates02.txt
